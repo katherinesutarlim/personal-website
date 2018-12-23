@@ -1,0 +1,76 @@
+* {margin: 0; padding: 0;}
+
+body {
+  background-image: url("../image/lines.png");
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  width: 70.5em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.self-portrait {
+  float: left;
+  margin-top: 4.5em;
+  margin-right: 5em;
+  height: 32em;
+}
+
+.text {
+  padding-top: 3.8em;
+  width: 71.5em;
+}
+
+.greeting {
+  font-size: 6em;
+  font-family: 'Caveat Brush', cursive;
+  color: #E60E0E;
+  line-height: 1.01em;
+}
+
+.about-me {
+  padding-top: 1em;
+  font-size: 2em;
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  line-height: 1.45em
+}
+
+.links{
+  padding-top: 2.95em;
+}
+
+.links a {
+  font-size: 2em;
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  color: #13174E;
+  text-decoration: none;
+}
+
+.links a:hover {
+  font-size: 2em;
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  color: #13174E;
+  text-decoration: none;
+  background-image: url("../image/highlight.png");
+  background-repeat: no-repeat;
+}
+
+.resume {
+  float: left;
+}
+
+.projects {
+  margin-left: 4.5em;
+  float: left;
+}
+
+.contact {
+  margin-left: 4.5em;
+  float: left;
+}
